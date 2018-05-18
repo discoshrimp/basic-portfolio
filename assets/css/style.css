@@ -1,59 +1,66 @@
 
-*{
-    text-align: center;
-}
 
 #header{
-    background-color: rgb(111, 0, 255);
+    background-color: rgb(138, 145, 241);
     color: white; 
-    border-radius: 10px 10px 10px 10px;
+    
     font-weight: bold;
     padding: 10px;
     line-height: 15px;
+    font-size: 30px;
    
 }
 img {
     height:210px;
     width: 400px;
-    border-radius: 15px 15px 15px 15px;
+    border-radius: 2px 2px 2px 2px;
+    margin: 10px 15px 5px 0px;
 
 }
+
 p {
-    background-color:rgb(126, 191, 228);
-    border-radius: 10px 10px 10px 10px;
+    background-color: #ffffff;
+    text-align:justify;
+    text-indent: 2em;
+    
 }
-h2 {
-    color: rgb(111, 0, 255)
-}
-#about {
-    background-color: rgb(111, 0, 255);
-    color: white; 
-    border-radius: 10px 10px 10px 10px;
+#wrap{
+    width: auto;
+    height: auto;
     margin: 10px;
     padding: 10px;
+}
 
+h2 {
+    color: rgb(138, 145, 241);
+}
+
+#about {
+    background-color: rgb(138, 145, 241);
+    color: white; 
+    padding: 10px;
 }
 
 #portfolio {
-    background-color: rgb(111, 0, 255);
+    background-color: rgb(138, 145, 241);
     color: white; 
-    border-radius: 10px 10px 10px 10px;
-    margin: 10px;
     padding: 10px;
-
-
 }
 
 #contact {
-    background-color: rgb(111, 0, 255);
+    background-color:  rgb(138, 145, 241);
     color: white; 
-    border-radius: 10px 10px 10px 10px;
-    margin: 10px;
     padding: 10px;
-
-
 }
 
+.me{
+    color:  rgb(138, 145, 241);
+    font-weight: bold;
+    padding: 10px;
+    font-size: 24px;
+}
+
+/* Float classes*/
 .left {
     float: left;
 }
@@ -65,11 +72,9 @@ h2 {
 
 .right {
     float: right;
-
 }
 
 .inline-right {
     display: inline-flex;
     float: right;
-
 }
