@@ -1,20 +1,24 @@
+*{
+    border: 1px solid #dddddd;
 
-
-#header{
-    background-color: rgb(138, 145, 241);
-    color: white; 
-    
-    font-weight: bold;
-    padding: 10px;
-    line-height: 15px;
-    font-size: 30px;
-   
 }
+
+body {
+    text-align: center;
+    color: #777777;
+    background-color: #dbdbdb;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
 img {
     height:210px;
     width: 400px;
     border-radius: 2px 2px 2px 2px;
-    margin: 10px 15px 5px 0px;
+    margin: 10px;
+    margin-left:-130px;
 
 }
 
@@ -22,43 +26,68 @@ p {
     background-color: #ffffff;
     text-align:justify;
     text-indent: 2em;
-    
-}
-#wrap{
-    width: auto;
-    height: auto;
-    margin: 10px;
-    padding: 10px;
 }
 
-h2 {
-    color: rgb(138, 145, 241);
+#header{
+    background-color: teal;
+    color: #ffffff; 
+    border: 1px solid #cccccc;
+    font-weight: bold;
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 30px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+#underline {
+    border-top: 2px solid gray;
+    margin: 15px 25px 15px 15px;
+    width:960px;
+
+}
+
+
+.container {
+    width: 100%;
+    padding: 0 2em;
+    max-width: 896px;
+    margin:0 auto;
+}
+.me{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color:  teal;
+
+    font-weight: bold;
+    padding: 10px;
+    padding-left: 20px;
+    font-size: 24px;
+}
+
+footer {
+    margin-top: 7em;
+    border-top: 2px solid #4aaaa5;
+    background-color: #666666;
+    height:100%;
+    padding-bottom: 40px;
 }
 
 #about {
-    background-color: rgb(138, 145, 241);
-    color: white; 
     padding: 10px;
+    color: #777777;
 }
 
 #portfolio {
-    background-color: rgb(138, 145, 241);
-    color: white; 
     padding: 10px;
+    color: #777777;
 }
 
-#contact {
-    background-color:  rgb(138, 145, 241);
-    color: white; 
+#contact { 
     padding: 10px;
+    color: #777777;
 }
 
-.me{
-    color:  rgb(138, 145, 241);
-    font-weight: bold;
-    padding: 10px;
-    font-size: 24px;
-}
+
+
 
 /* Float classes*/
 .left {

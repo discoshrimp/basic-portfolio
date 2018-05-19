@@ -1,13 +1,16 @@
+
 input {
 
     width: 100%;
     padding: 10px;
     box-sizing: border-box;
-    border:2px solid black;
+    border:1px solid gray;
 }
 #subject {
     height: 100px;
     width: 100%;
+    box-sizing: border-box;
+    border: 1px solid gray;
 
 }
 #submit {
@@ -16,7 +19,7 @@ input {
     font-weight: bold;
     text-align: center;
     color: rgb(255, 255, 255);
-    background-color: rgb(138, 145, 241);
+    background-color: teal;
     border-radius: 5px 5px 5px 5px;
     width: 100px;
     height: 50px;
