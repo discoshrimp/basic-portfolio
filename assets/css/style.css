@@ -43,7 +43,7 @@ p {
     border-top: 2px solid gray;
     margin: 15px 25px 15px 15px;
     width:960px;
-
+    background-color: white;
 }
 
 
@@ -97,6 +97,7 @@ footer {
 .inline-left {
     display: inline-flex;
     float: left;
+    
 }
 
 .right {
